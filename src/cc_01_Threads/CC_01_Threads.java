@@ -43,6 +43,6 @@ public class CC_01_Threads implements Runnable {
 			t[i].join();        
 		}						
 		System.out.println("Soy el Thread principal del main y termino ya "); 
-		// calm our titties
+		
 	}
 }
