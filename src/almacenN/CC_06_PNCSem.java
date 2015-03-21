@@ -9,6 +9,7 @@ import es.upm.babel.cclib.Consumidor;
  * Programa concurrente para productor-buffer-consumidor con almacen
  * de capacidad N implementado con semáforos (AlmacenN).
  */
+@SuppressWarnings("unused")
 class CC_06_PNCSem {
    public static final void main(final String[] args)
       throws InterruptedException
